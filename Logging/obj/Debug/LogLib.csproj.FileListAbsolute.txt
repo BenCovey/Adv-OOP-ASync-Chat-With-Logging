@@ -18,6 +18,5 @@ C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\Logging.pdb
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\NLog.dll
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\NLog.xml
-C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\LogLib.csprojResolveAssemblyReference.cache
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\Logging.dll
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\Logging.pdb

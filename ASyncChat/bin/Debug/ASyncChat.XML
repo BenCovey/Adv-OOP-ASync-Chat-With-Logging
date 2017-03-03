@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASyncChat</name>
+    </assembly>
+    <members>
+        <member name="M:ASyncChat.Form1.#ctor(ChatLib.Client)">
+            <summary>
+            Form 1 Second Constructor
+            </summary>
+        </member>
+        <member name="M:ASyncChat.Form1.newData(System.Object,ChatLib.MessageRecievingEventArgs)">
+            <summary>
+            New Data, the method to recieve data from the Custom Event Args
+            </summary>
+            <param name="Sender"></param>
+            <param name="Data"></param>
+        </member>
+        <member name="F:ASyncChat.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ASyncChat.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ASyncChat.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ASyncChat.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ASyncChat.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ASyncChat.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ASyncChat.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

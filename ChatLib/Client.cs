@@ -4,8 +4,9 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using LogLib;
-using Logging;
+//using LogLib;
+//using Logging;
+using ChatLogLib;
 
 namespace ChatLib
 {
@@ -27,7 +28,6 @@ namespace ChatLib
         TcpClient TCPClient;
         NetworkStream Stream;
         public bool Recieving = true;
-        private TextLogger textLogger;
 
 
         /// <summary>
@@ -37,6 +37,10 @@ namespace ChatLib
         public Client(ILoggingService logger)
         {
             this.logger = logger;
+        }
+
+        public Client()
+        {
         }
 
         /// <summary>

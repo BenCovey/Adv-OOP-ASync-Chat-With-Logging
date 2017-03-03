@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Threading;
 using ChatLib;
-using LogLib;
+using ChatLogLib;
 using System.Windows.Forms;
-using Logging;
+//using Logging;
 
 namespace ASyncChat
 {
     public partial class Form1 : Form
     {
         Thread ListenerThread;
-        //Client client = new Client(new NLog());
+        Client client;
         bool Connected = false;
 
         /// <summary>
@@ -29,6 +29,12 @@ namespace ASyncChat
         public Form1()
         {
             
+            InitializeComponent();
+            //Disable Send Button
+            btnSend.Enabled = false;
+            //Create File for log with time stamp
+            client.MessageHandler += new MessageRecievingEventHandler(newData);
+
         }
 
         /// <summary>
@@ -73,6 +79,7 @@ namespace ASyncChat
             bool isAvail = client.Connection();
             if (isAvail == true)
             {
+                
                 //Enable Send Button
                 btnSend.Enabled = true;
                 //Enable Bool

@@ -18,3 +18,13 @@ C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\ChatLib\bin\Debug\NLog.config
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\obj\Debug\ChatLib.csprojResolveAssemblyReference.cache
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\obj\Debug\ChatLib.dll
 C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\obj\Debug\ChatLib.pdb
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\NLog.config
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\ChatLib.XML
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\ChatLib.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\ChatLib.pdb
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\Logging.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\NLog.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\Logging.pdb
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\Logging.xml
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\NLog.xml
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\ChatLib\bin\Debug\ChatLogLib.dll

@@ -34,9 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ChatLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\ChatLib\obj\Debug\ChatLib.dll</HintPath>
+    <Reference Include="ChatLogLib">
+      <HintPath>..\Logging\bin\Debug\ChatLogLib.dll</HintPath>
     </Reference>
     <Reference Include="Logger">
       <HintPath>..\..\Logger.dll</HintPath>
@@ -109,13 +108,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatLib\ChatLib.csproj">
+      <Project>{61b3f775-e122-4b72-9e46-d6c84e5f118b}</Project>
+      <Name>ChatLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logging\LogLib.csproj">
       <Project>{97016cb9-56bf-412c-ac7f-537f8729781e}</Project>
       <Name>LogLib</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

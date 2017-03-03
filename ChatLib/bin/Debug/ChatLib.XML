@@ -15,7 +15,7 @@
             Data variable, server ip, Port data, the holder for TCP, and streaming.
             </summary>
         </member>
-        <member name="M:ChatLib.Client.#ctor(Logging.ILoggingService)">
+        <member name="M:ChatLib.Client.#ctor(ChatLogLib.ILoggingService)">
             <summary>
             TextLogger 
             </summary>

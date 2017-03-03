@@ -1,5 +1,6 @@
-﻿using Logging;
-using System;
+﻿using System;
+using ChatLogLib;
+//using Logging;
 using ChatLib;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Practices.Unity;
 using Ninject;
-using LogLib;
+
 
 namespace ASyncChat
 {
@@ -29,7 +30,8 @@ namespace ASyncChat
             /// </summary>
             UnityContainer container = new UnityContainer();
             //container.RegisterType<ILoggingService, TextLogger>();
-            container.RegisterType<ILoggingService, NLog>();
+            //container.RegisterType<ILoggingService, NLog>();
+            container.RegisterType<ChatLogLib.ILoggingService, ChatLogLib.ChatLogger>();
             Application.Run(container.Resolve<Form1>());
 
             ///<summary>
@@ -37,7 +39,7 @@ namespace ASyncChat
             /// </summary>
             //IKernel kernel = new StandardKernel();
             ////kernel.Bind<ILoggingService>().To<TextLogger>();
-            //kernel.Bind<ILoggingService>().To<NLog>();
+            //kernel.Bind<ChatLogLib.ILoggingService>().To<ChatLogLib.ChatLogger>();
             //Application.Run(kernel.Get<Form1>());
 
             //Run the app
