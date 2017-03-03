@@ -21,12 +21,12 @@
             </summary>
             <param name="message"></param>
         </member>
-        <member name="T:LogLib.TextLogger">
+        <member name="T:Logging.TextLogger">
             <summary>
             Logging Class
             </summary>
         </member>
-        <member name="M:LogLib.TextLogger.Log(System.String)">
+        <member name="M:Logging.TextLogger.Log(System.String)">
             <summary>
             Write file, writing to log files
             </summary>
