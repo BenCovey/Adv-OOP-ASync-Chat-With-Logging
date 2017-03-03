@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Logging</name>
+    </assembly>
+    <members>
+        <member name="T:Logging.ILoggingService">
+            <summary>
+            IloggingService 
+            </summary>
+        </member>
+        <member name="M:Logging.ILoggingService.Log(System.String)">
+            <summary>
+            The General Log method
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:LogLib.TextLogger">
+            <summary>
+            Logging Class
+            </summary>
+        </member>
+        <member name="M:LogLib.TextLogger.Log(System.String)">
+            <summary>
+            Write file, writing to log files
+            </summary>
+            <param name="inputFile"></param>
+            <param name="Data"></param>
+        </member>
+    </members>
+</doc>

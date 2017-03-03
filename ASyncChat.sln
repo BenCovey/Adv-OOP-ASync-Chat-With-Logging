@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASyncChat", "ASyncChat\ASyncChat.csproj", "{30062359-6B27-4781-B3A0-8B87A76D8D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLib", "Logging\LogLib.csproj", "{97016CB9-56BF-412C-AC7F-537F8729781E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatLib", "ChatLib\ChatLib.csproj", "{61B3F775-E122-4B72-9E46-D6C84E5F118B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30062359-6B27-4781-B3A0-8B87A76D8D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30062359-6B27-4781-B3A0-8B87A76D8D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30062359-6B27-4781-B3A0-8B87A76D8D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30062359-6B27-4781-B3A0-8B87A76D8D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97016CB9-56BF-412C-AC7F-537F8729781E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97016CB9-56BF-412C-AC7F-537F8729781E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97016CB9-56BF-412C-AC7F-537F8729781E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97016CB9-56BF-412C-AC7F-537F8729781E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B3F775-E122-4B72-9E46-D6C84E5F118B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B3F775-E122-4B72-9E46-D6C84E5F118B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B3F775-E122-4B72-9E46-D6C84E5F118B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B3F775-E122-4B72-9E46-D6C84E5F118B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

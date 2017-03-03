@@ -1,0 +1,23 @@
+C:\Users\benvc\Source\Repos\Covey-Ben-w0285690\ASyncChat\Logging\bin\Debug\Logging.XML
+C:\Users\benvc\Source\Repos\Covey-Ben-w0285690\ASyncChat\Logging\bin\Debug\Logging.dll
+C:\Users\benvc\Source\Repos\Covey-Ben-w0285690\ASyncChat\Logging\bin\Debug\Logging.pdb
+C:\Users\benvc\Source\Repos\Covey-Ben-w0285690\ASyncChat\Logging\obj\Debug\Logging.dll
+C:\Users\benvc\Source\Repos\Covey-Ben-w0285690\ASyncChat\Logging\obj\Debug\Logging.pdb
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\Logging.XML
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\Logging.dll
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\Logging.pdb
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\obj\Debug\Logging.dll
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\obj\Debug\Logging.pdb
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\obj\Debug\LogLib.csprojResolveAssemblyReference.cache
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\NLog.dll
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\NLog.xml
+C:\Users\benvc\Desktop\Advanced OOP\ASyncChat\Logging\bin\Debug\NLog.config
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\NLog.config
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\Logging.XML
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\Logging.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\Logging.pdb
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\NLog.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\bin\Debug\NLog.xml
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\LogLib.csprojResolveAssemblyReference.cache
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\Logging.dll
+C:\Users\benvc\Desktop\Advanced OOP\BenCovey_PROG2220_AssignmentThree\ASyncChat\Logging\obj\Debug\Logging.pdb

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatLib</name>
+    </assembly>
+    <members>
+        <member name="T:ChatLib.Client">
+            <summary>
+            Client child to ClientServerParent
+            </summary>
+        </member>
+        <member name="F:ChatLib.Client.logger">
+            <summary>
+            All globally accessed variables at the top, including delegate,
+            Data variable, server ip, Port data, the holder for TCP, and streaming.
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.#ctor(Logging.ILoggingService)">
+            <summary>
+            TextLogger 
+            </summary>
+            <param name="textLogger"></param>
+        </member>
+        <member name="M:ChatLib.Client.Connection">
+            <summary>
+            Connection check function
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatLib.Client.Close">
+            <summary>
+            Close method, responsible for closing the connection 
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.Connect">
+            <summary>
+            Connect method responsible for connecting the two clients together.
+            </summary>
+        </member>
+        <member name="M:ChatLib.Client.Send(System.String)">
+            <summary>
+            Send new message to other client/Server
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:ChatLib.Client.Listen">
+            <summary>
+            Listen method for listening for messages
+            </summary>
+        </member>
+        <member name="T:ChatLib.ClientServerParent">
+            <summary>
+            Abstract class for client/server
+            </summary>
+        </member>
+        <member name="M:ChatLib.ClientServerParent.Connect">
+            <summary>
+            Abstract Connections method
+            </summary>
+        </member>
+        <member name="M:ChatLib.ClientServerParent.Listen">
+            <summary>
+            Abstract Listening Method
+            </summary>
+        </member>
+        <member name="M:ChatLib.ClientServerParent.Send(System.String)">
+            <summary>
+            Abstract Send Data Method
+            </summary>
+        </member>
+        <member name="M:ChatLib.ClientServerParent.Close">
+            <summary>
+            Abstract Close Connection Method
+            </summary>
+        </member>
+        <member name="T:ChatLib.MessageRecievingEventHandler">
+            <summary>
+            Delegate for recieving thread
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="T:ChatLib.Server">
+            <summary>
+            Server : ClientServerParents
+            </summary>
+        </member>
+        <member name="F:ChatLib.Server.TCPServer">
+            <summary>
+            Globals for TCPListener, Byte Array for recieving message
+            Data String, TCPClient, Stream and Data, IP, and port Data
+            </summary>
+        </member>
+        <member name="M:ChatLib.Server.Close">
+            <summary>
+            Close Method, close all connections
+            </summary>
+        </member>
+        <member name="M:ChatLib.Server.Connect">
+            <summary>
+            Connect Method, to connect Client to the server
+            </summary>
+        </member>
+        <member name="M:ChatLib.Server.Send(System.String)">
+            <summary>
+             Send is for sending data in a byte array to the client
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:ChatLib.Server.Listen">
+            <summary>
+            Listen method for listening for incoming messages
+            </summary>
+        </member>
+    </members>
+</doc>
